@@ -4,7 +4,10 @@ import 'package:flutter_responsive_login_ui/bloc/auth_bloc.dart';
 import 'package:flutter_responsive_login_ui/login_screen.dart';
 import 'package:flutter_responsive_login_ui/pallete.dart';
 
+import 'app_bloc_oberver/app_bloc_observer.dart';
+
 void main() {
+  Bloc.observer = AppBlocObser();
   runApp(const MyApp());
 }
 

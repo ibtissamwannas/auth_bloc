@@ -12,3 +12,5 @@ final class AuthLoginButtonPressed extends AuthEvent {
     required this.password,
   });
 }
+
+final class AuthLogoutButtonPressed extends AuthEvent {}
